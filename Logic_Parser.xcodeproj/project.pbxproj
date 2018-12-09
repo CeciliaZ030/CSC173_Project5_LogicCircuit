@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D6433A5C21BB574F0067C57F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D6433A5B21BB574F0067C57F /* main.c */; };
+		D6433A6421BB57A90067C57F /* Node.c in Sources */ = {isa = PBXBuildFile; fileRef = D6433A6321BB57A90067C57F /* Node.c */; };
+		D6433A6721BB59130067C57F /* Parser.c in Sources */ = {isa = PBXBuildFile; fileRef = D6433A6621BB59130067C57F /* Parser.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		D6433A5821BB574F0067C57F /* Logic_Parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Logic_Parser; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6433A5B21BB574F0067C57F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D6433A6221BB57A90067C57F /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		D6433A6321BB57A90067C57F /* Node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Node.c; sourceTree = "<group>"; };
+		D6433A6521BB59130067C57F /* Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		D6433A6621BB59130067C57F /* Parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Parser.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				D6433A5B21BB574F0067C57F /* main.c */,
+				D6433A6321BB57A90067C57F /* Node.c */,
+				D6433A6221BB57A90067C57F /* Node.h */,
+				D6433A6521BB59130067C57F /* Parser.h */,
+				D6433A6621BB59130067C57F /* Parser.c */,
 			);
 			path = Logic_Parser;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6433A5C21BB574F0067C57F /* main.c in Sources */,
+				D6433A6421BB57A90067C57F /* Node.c in Sources */,
+				D6433A6721BB59130067C57F /* Parser.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
